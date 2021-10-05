@@ -8,7 +8,8 @@ namespace Demo
     {
         public double Somar(double v1, double v2)
         {
-            return v1 + v2;
+            var result = v1 + v2;
+            return result;
         }
 
         public int dividir(int v1, int v2)
